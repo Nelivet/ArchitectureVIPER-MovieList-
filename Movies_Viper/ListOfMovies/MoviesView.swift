@@ -29,5 +29,6 @@ class ListOfMoviesView: UIViewController {
 extension ListOfMoviesView: ListOfMoviesUI {
     func update(movies: [PopularMoviesEntity]) {
         print("Datos recibidos \(movies)")
+        print ("GIT GIT GIT ")
     }
 }
